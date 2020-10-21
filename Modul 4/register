@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1808561065 I Wayan Wijaya Kusuma Sandi</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="content">
+	<div class="heading">
+	<h1>Register</h1>
+	</div>
+
+
+
+	<div class="data">
+	<form action="" method="POST" enctype="multipart/form-data">
+		<label>Nama</label>
+		<input type="text" name="nama" style="width: 100%">
+		<br />
+		<div class="underline"></div><br>
+
+		<label>Email</label>
+		<input type="text" name="email" style="width: 100%">
+		<br />
+		<div class="underline"></div><br>
+
+		<label>Password</label>
+		<input type="password" name="nama" style="width: 100%">
+		<br />
+		<div class="underline"></div><br>
+
+		<label>Jenis Kelamin</label>
+		<br />
+		<label>Laki-Laki</label>
+		<input type="radio" name="jk" value="Laki-Laki">
+		<br />
+		<label>Perempuan</label>
+		<input type="radio" name="jk" value="Perempuan">
+		<br />
+		<div class="underline"></div><br>
+
+		<label>Agama</label>
+	
+		<select>
+			<option>Hindu</option>
+			<option>Budha</option>
+			<option>Kristen</option>
+			<option>Katolik</option>
+			<option>Protestan</option>
+			
+		</select>
+		<br />
+		<div class="underline"></div><br>
+		<label>Minat & Bakat </label>
+		<br />
+		<input type="checkbox" name="mnb" value="olahraga">
+		<label>Olahraga</label>
+		<br />
+		<input type="checkbox" name="mnb" value="Musik">
+		<label>Musik</label>
+		<br />
+		<input type="checkbox" name="mnb" value="Tari">
+		<label>Tari</label>
+		<br />
+		<input type="checkbox" name="mnb" value="Menggambar">
+		<label>Menggambar</label>
+		<br />
+		<input type="checkbox" name="mnb" value="Makan">
+		<label>Makan</label>
+		<br />
+		<div class="underline"></div><br>
+
+		<label>Alamat</label >
+		<textarea name="alamat" style="width: 100%"></textarea>
+		<br />
+		<div class="underline"></div><br>
+
+		<label>Foto</label>
+		<input type="file" name="foto" style="width: 100%">
+		<br />
+		<div class="underline"></div><br>
+
+		 <button type="submit" name="tambah">Register</button>
+	</form>
+	</div>
+
+	</div>
+
+</body>
+</html>
